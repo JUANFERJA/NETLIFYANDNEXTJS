@@ -30,7 +30,7 @@ const Formulario = () => {
     try {
   
         const response = await fetch('/api/contact', {
-            method: 'post',
+            method: 'get',
             body: formData,
         });
   
