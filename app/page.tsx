@@ -68,7 +68,7 @@ useEffect(() => {
     <section id="about-me">
         <div className="container">
             <h2>Skills</h2>
-            <p>I am a creative programmer who enjoys combining functionality with design to create unique and appealing experiences.</p>
+            <p>combining functionality with design to create unique and appealing experiences.</p>
         </div>
         
         <button className="button button-blue">JavaScript</button>
