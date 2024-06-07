@@ -17,7 +17,6 @@ const Formulario = () => {
   const addComentario = ({target})=>{
     setcomentario(target.value)
   }
-
   async function handleSubmit(event) {
 
     setUsuario([...Usuario, {
@@ -28,14 +27,10 @@ const Formulario = () => {
 
     event.preventDefault();
     const formData = new FormData(event.target)
-    const headers = {'Content-Type':'application/json',
-                    'Access-Control-Allow-Origin':'*',
-                    'Access-Control-Allow-Methods':'POST,PATCH,OPTIONS'}
     try {
   
         const response = await fetch('/api/contact', {
             method: 'post',
-            headers:headers,
             body: formData,
         });
   

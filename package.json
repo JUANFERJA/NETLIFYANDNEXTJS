@@ -8,7 +8,7 @@
     "export": "next export",
     "deploy": "npm run build && npm run export",
     "start": "next start"
-},
+  },
   "browser": {
     "fs": false,
     "path": false,
@@ -23,6 +23,7 @@
     "bootswatch": "^5.3.3",
     "eslint": "8.57.0",
     "eslint-config-next": "14.2.3",
+    "firebase-tools": "^13.11.2",
     "next": "14.2.3",
     "nodemailer": "^6.9.13",
     "postcss": "8.4.38",
